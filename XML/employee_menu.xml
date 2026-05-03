@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile"
+        android:icon="@android:drawable/ic_menu_myplaces"/>
+
+    <item
+        android:id="@+id/nav_completed"
+        android:title="Completed Tasks"
+        android:icon="@android:drawable/ic_menu_agenda"/>
+
+    <item
+        android:id="@+id/nav_points"
+        android:title="Points"
+        android:icon="@android:drawable/ic_menu_info_details"/>
+    <item
+        android:id="@+id/nav_chat"
+        android:title="Chat with Admin"
+        android:icon="@android:drawable/ic_dialog_email"/>
+    <item
+        android:id="@+id/nav_stats"
+        android:title="Statistics"
+        android:icon="@android:drawable/ic_menu_sort_by_size"/>
+
+    <item
+        android:id="@+id/nav_help"
+        android:title="Help"
+        android:icon="@android:drawable/ic_menu_help"/>
+    <item
+        android:id="@+id/nav_complaints"
+        android:title="Complaints"
+        android:icon="@android:drawable/ic_dialog_alert"/>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout"
+        android:icon="@android:drawable/ic_lock_power_off"/>
+
+</menu>

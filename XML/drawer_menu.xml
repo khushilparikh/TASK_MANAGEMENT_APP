@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile"/>
+
+    <item
+        android:id="@+id/nav_tasks"
+        android:title="Tasks"/>
+
+    <item
+        android:id="@+id/nav_stats"
+        android:title="Statistics"/>
+
+    <item
+        android:id="@+id/nav_help"
+        android:title="Help"/>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout"/>
+
+</menu>

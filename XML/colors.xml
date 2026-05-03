@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Primary -->
+    <color name="primary">#5E35B1</color>
+    <color name="primaryDark">#4527A0</color>
+    <color name="secondary">#00ACC1</color>
+
+    <!-- Background -->
+    <color name="background">#F5F7FA</color>
+
+    <!-- Glass -->
+    <color name="glassWhite">#80FFFFFF</color>
+
+    <!-- Text -->
+    <color name="textPrimary">#1A1A1A</color>
+    <color name="textSecondary">#777777</color>
+
+    <!-- Status -->
+    <color name="success">#4CAF50</color>
+    <color name="warning">#FFC107</color>
+    <color name="error">#F44336</color>
+
+    <!-- Card -->
+    <color name="card">#FFFFFF</color>
+
+</resources>
