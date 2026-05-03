@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.taskmanagerapp">
+
+    <!-- Notification permission (required for Android 13+) -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+
+    <application
+        android:allowBackup="true"
+        android:label="TaskManagerApp"
+        android:theme="@style/Theme.TaskManagerApp"
+        android:supportsRtl="true">
+
+        <!-- Login Screen -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!-- Employee Dashboard -->
+        <activity
+            android:name=".EmployeeDashboardActivity"
+            android:exported="false"/>
+
+        <!-- Admin Assign Task Screen -->
+        <activity
+            android:name=".AssignTaskActivity"
+            android:exported="false"/>
+
+        <!-- Statistics Screen -->
+        <activity
+            android:name=".StatisticsActivity"
+            android:exported="false"/>
+
+        <activity android:name=".ProfileActivity"/>
+        <activity android:name=".AdminAnalyticsActivity"/>
+        <activity android:name=".CompletedTaskActivity"/>
+        <activity android:name=".PointsActivity"/>
+        <activity android:name=".ChatActivity"/>
+        <activity android:name=".NotificationActivity"/>
+        <activity android:name=".SelectEmployeeActivity"/>
+        <activity android:name=".HelpActivity"/>
+        <activity android:name=".ChatListActivity"/>
+        <activity android:name=".AssignedTasksActivity"/>
+        <activity android:name=".EmployeeComplaintActivity"/>
+        <activity android:name=".ComplaintActivity"/>
+        <!-- Notification Receiver -->
+        <receiver
+            android:name=".ReminderReceiver"
+            android:exported="false"/>
+
+    </application>
+
+</manifest>
